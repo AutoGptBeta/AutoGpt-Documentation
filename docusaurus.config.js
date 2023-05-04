@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AgentGPT',
+  title: 'AutoGpt',
   tagline: 'Autonomous AI agents directly in your browser',
   favicon: 'img/favicon.ico',
 
@@ -14,12 +14,12 @@ const config = {
   url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AgentGPT-Documentation/',
+  baseUrl: '/AutoGpt-Documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'reworkd', // Usually your GitHub org/user name.
-  projectName: 'AgentGPT-Documentation', // Usually your repo name.
+  projectName: 'AutoGpt-Documentation', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -75,7 +75,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/reworkd/AgentGPT',
+            href: 'https://github.com/FreeGptOrg',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
